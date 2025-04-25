@@ -1,0 +1,13 @@
+[tool.black]
+line-length = 150
+target-version = ["py312"]  # ✅ most recent supported version
+
+[tool.ruff]
+line-length = 150
+select = ["E", "F", "I"]
+ignore = ["E501"]
+target-version = "py312"  # ✅ most recent supported version
+
+[tool.isort]
+profile = "black"
+line_length = 88

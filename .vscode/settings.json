@@ -1,0 +1,22 @@
+{
+  // Linting & analysis
+  "python.linting.enabled": true,
+  "python.linting.ruffEnabled": true,
+  "python.analysis.autoSearchPaths": true,
+  "python.analysis.useLibraryCodeForTypes": true,
+
+  // Formatting with Black
+  "python.formatting.provider": "black",
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.formatOnSave": true
+  },
+
+  // Hide common junk files
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.mypy_cache": true,
+    "**/.pytest_cache": true,
+    "**/*.pyc": true
+  }
+}
